@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F3D403;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: salmon;
+}
+
+.active {
+  background-color: orangered;
+}
+body {
+	background-color: #f5fffa;
+}
+h1 { 
+  text-align: center;
+  font-size: 30px;
+  color: red
+}
+p {
+ text-align: center;
+ font-family: monospace;
+ font-size: 14px;
+ color: royalblue;
+}
+h4 {
+color: red;
+text-align: center;
+font-size: 18px;
+border: double;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
